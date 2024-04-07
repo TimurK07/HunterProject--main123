@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <title>Traffic Hunter</title>
+    <script src="js/main.js" defer></script>
+</head>
+<body class="body">
+<div class="wrapper">
+    <header class="header">
+        <div class="header_bg_image">
+            <div class="container header_container">
+                <div class="header_inner navbar_inner">
+                    <div class="logo">
+                        <img src="./img/traffic_hunter.svg" alt="">
+                    </div>
+                    <nav class="navbar">
+                        <ul class="navbar_list">
+                            <li class="navbar_item"><a href="#" class="navbar_item_link">Обо мне</a></li>
+                            <li class="navbar_item dropdown_arrow1">
+                                <a href="#" class="navbar_item_link">SEO</a>
+                                <img class="dropdown_arrow  dropdown_arrow1" src="./img/down-arrow.svg" alt="">
+                                <div class="dropdown_content dropdown_content1">
+                                    <div class="dropdown_item"><a href="#">SEO продвижение сайта</a></div>
+                                    <div class="dropdown_item"><a href="#">Аудит и внутренняя оптимизация</a></div>
+                                </div>
+                            </li>
+                            <!-- Исправления для второго элемента выпадающего списка -->
+                            <li class="navbar_item dropdown_arrow2">
+                                <a href="#" class="navbar_item_link">Настройка рекламы</a>
+                                <img class="dropdown_arrow" src="./img/down-arrow.svg" alt="">
+                                <div class="dropdown_content dropdown_content2">
+                                    <div class="dropdown_item"><a href="#">Text2</a></div>
+                                    <div class="dropdown_item"><a href="#">Text2</a></div>
+                                </div>
+                            </li>
+
+                            <!-- Исправления для третьего элемента выпадающего списка -->
+                            <li class="navbar_item dropdown_arrow3">
+                                <a href="#" class="navbar_item_link">Соц. сети</a>
+                                <img class="dropdown_arrow" src="./img/down-arrow.svg" alt="">
+                                <div class="dropdown_content dropdown_content3">
+                                    <div class="dropdown_item"><a href="#">Text3</a></div>
+                                    <div class="dropdown_item"><a href="#">Text3</a></div>
+                                </div>
+                            </li>
+
+                            <li class="navbar_item"><a href="#" class="navbar_item_link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header_phone">
+                        <img src="./img/telephone.svg" alt="">
+                        <p><a href="tel:+9808016363">980-801-63-63</a></p>
+                    </div>
+                    <div class="burger_menu">
+                        <img src="./img/menu.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="burger_menu_inner">
+                <div class="menu_logo"><img src="./img/traffic_hunter.svg" alt=""></div>
+                <div class="menu_cross"><img src="./img/cross.svg" alt=""></div>
+                <div class="header_underline_vector">
+                    <img class="vector_phone" src="./img/underline-phone.svg" alt="">
+                </div>
+                <div class="burger_menu_navbar">
+                    <div class="burger_menu_item">
+                        <a href="#" class="navbar_item_link">Обо мне</a>
+                    </div>
+                    <div class="burger_menu_item">
+                        <a href="#" class="navbar_item_link toggle_submenu" data-target="menu_content1">SEO</a>
+                        <img class="menu_arrow menu_arrow1 toggle_arrow" src="./img/down-arrow.svg" alt="">
+                        <div class="menu_content menu_content1">
+                            <li class="burger_menu_item"><a href="#">SEO продвижение сайта</a></li>
+                            <li class="burger_menu_item"><a href="#">Аудит и внутренняя оптимизация</a></li>
+                        </div>
+                    </div>
+                    <div class="burger_menu_item">
+                        <a href="#" class="navbar_item_link toggle_submenu" data-target="menu_content2">Настройка рекламы</a>
+                        <img class="menu_arrow menu_arrow2 toggle_arrow" src="./img/down-arrow.svg" alt="">
+                        <div class="menu_content menu_content2">
+                            <li class="burger_menu_item"><a href="#">Text2</a></li>
+                            <li class="burger_menu_item"><a href="#">Text2</a></li>
+                        </div>
+                    </div>
+                    <div class="burger_menu_item">
+                        <a href="#" class="navbar_item_link toggle_submenu" data-target="menu_content3">Соц. сети</a>
+                        <img class="menu_arrow menu_arrow3 toggle_arrow" src="./img/down-arrow.svg" alt="">
+                        <div class="menu_content menu_content3">
+                            <li class="burger_menu_item"><a href="#">Text3</a></li>
+                            <li class="burger_menu_item"><a href="#">Text3</a></li>
+                        </div>
+                    </div>
+                    <div class="burger_menu_item">
+                        <a href="#" class="navbar_item_link">Контакты</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header_underline_vector">
+                <img class="vector_desktop" src="./img/header-vector.svg" alt="">
+                <img class="vector_phone" src="./img/underline-phone.svg" alt="">
+            </div>
+            <div class="container header_container_2">
+                <div class="header_inner">
+                    <div class="left_block">
+                        <div class="header_title">Ярослав Traffic Hunter</div>
+                        <div class="header_text">
+                            Профессиональное и высокоэффективное продвижение и маркетинговое сопровождение вашего бизнеса в сети
+                        </div>
+                        <div class="header_btn">Подробнее</div>
+                        <div class="header_ladno">
+                            <div class="header_ladno_item">SEO специалист</div>
+                            <div class="header_ladno_item">Констеколог</div>
+                            <div class="header_ladno_item">Таргетолог</div>
+                        </div>
+                    </div>
+                    <div class="right_block">
+                        <img class="vectors_desktop" src="./img/Group48.svg" alt="">
+                        <img class="vectors_phone" src="./img/Group49.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="header_underline_vector header_underline_vector_2">
+                <img class="vector_desktop" src="./img/header-vector2.svg" alt="">
+                <img class="vector_phone down" src="./img/underline-phone.svg" alt="">
+            </div>
+            <div class="container header_container">
+                <div class="header_inner apps">
+                    <div class="apps_container">
+                        <div class="app"><img src="./img/telegram.svg" alt=""></div>
+                        <div class="app"><img src="./img/whatsapp.svg" alt=""></div>
+                        <div class="app"><img src="./img/vk.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="page__product product">
+            <div class="product__container _container">
+                <div class="product__header header-block">
+                    <h2 class="header-block__title">Услуги</h2>
+                    <p class="header-block__text">Качественные услуги по доступной цене</p>
+                </div>
+                <div class="product__body">
+                    <div class="product__column">
+                        <article class="item-product">
+                            <div class="item-product__content">
+                                <a href="#" class="item-product__link">
+                                    <h4 class="item-product__title">SEO продвижение</h4>
+                                </a>
+
+                                <img class="item-service__circle cir1" src="./img/services/circle.svg" alt="">
+                                <div class="product__dzhigi salamshi">
+                                    <div class="item-product__text">
+                                        Продвижение вашего сайта в топ поисковой выдачи Яндекс и Google
+                                    </div>
+                                    <button class="item-service__button">Ознакомиться</button>
+    
+                                </div>
+                            
+                            </div>
+
+                        </article>
+                    </div>
+                    <div class="product__column">
+                        <article class="item-product">
+                            <div class="item-product__content">
+                                <a href="#" class="item-product__link">
+                                    <h4 class="item-product__title">Аудит и внутренняя оптимизация</h4>
+                                </a>
+
+                                <img class="item-service__circle cir2" src="./img/services/circle.svg" alt="">
+                                <div class="product__dzhigi chetam2">
+
+                                <div class="item-product__text">
+                                    Аудит и внутренняя оптимизация сайта очень важны в продвижении
+                                </div>
+                            <button class="item-service__button">Ознакомиться</button>
+</div>
+                            </div>
+
+                        </article>
+                    </div>
+                    <div class="product__column">
+                        <article class="item-product">
+                            <div class="item-product__content">
+                                <a href="#" class="item-product__link">
+                                    <h4 class="item-product__title">Контекстная реклама</h4>
+                                </a>
+                                    <img class="item-service__circle cir3" src="./img/services/circle.svg" alt="">
+                                <div class="product__dzhigi chetam">
+
+                                <div class="item-product__text">
+                                    Нужны клиенты прямо сейчас? Контекстная реклама отличное решение                                
+                                </div>
+                                    <button class="item-service__button">Ознакомиться</button>
+                            </div>
+                                </div>
+                        </article>
+                    </div>
+                    <div class="product__column">
+                        <article class="item-product">
+                            <div class="item-product__content">
+                                <a href="#" class="item-product__link">
+                                    <h4 class="item-product__title">Продвижение в социальных сетях</h4>
+                                </a>
+                                    <img class="item-service__circle cir4" src="./img/services/circle.svg" alt="">
+                                <div class="product__dzhigi chetam3">
+
+                                <div class="item-product__text">
+                                    Продвижение ваших страниц или групп в социальных сетях             
+                                </div>
+                            <button class="item-service__button">Ознакомиться</button>
+</div>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="achievements">
+            <div class="container achievements_container">
+                <div class="achievements_phone_title_container">
+                    <div class="achievements_phone_text">Мой опыт - ваш успех</div>
+                    <div class="achievements_phone_title">Мои успехи в цифрах</div>
+                </div>
+                <div class="achievements_inner">
+                    <div class="achievements_image_block">
+                        <!-- <img src="./img/more-man1-without-bg.png" alt=""> -->
+                        <!-- <img src="./img/Group 50.svg" alt=""> -->
+                    </div>
+                    <div class="achievements_info">
+                        <div class="achievements_title">Мои успехи в цифрах</div>
+                        <div class="achievements_text">Мои успехи в цифрах</div>
+                        <div class="achievements_big_card">
+                            <div class="achievements_big_card_item">
+                                <div class="big_card_title">Клиенты</div>
+                                <div class="big_card_number">100+</div>
+                            </div>
+                            <div class="achievements_big_card_item line_item"></div>
+                            <div class="achievements_big_card_item">
+                                <div class="big_card_title">Продвинуто проектов</div>
+                                <div class="big_card_number">123+</div>
+                            </div>
+                            <div class="achievements_big_card_item line_item"></div>
+                            <div class="achievements_big_card_item">
+                                <div class="big_card_title">Успешно</div>
+                                <div class="big_card_number">99%</div>
+                            </div>
+                        </div>
+                        <div class="achievements_btn">Запрос на услугу</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="page__benefits benefits">
+            <div class="benefits__container _container">
+                <div class="benefits__header">
+                    Почему сотрудничество
+                    со мной <span class="benefits__circled_word">выгодно</span>?
+                </div>
+                <div class="benefits__firstcol">
+                    <div class="benefits__item1 item-benefits1">
+                        <div class="item-benefits__icon">
+                            <img src="./img/benefits/benicon.svg" alt="">
+                        </div>
+                        <div class="item-benefits__title">Опыт</div>
+                        <p class="item-benefits__text">
+                            Более 13+ лет опыта работы с трафиком. 13 лет из них в SEO, 9 лет в контекстной рекламе, 8 лет в таргетироаанной рекламе. Также, более 5 лет международного опыта.
+                        </p>
+                    </div>
+                    <div class="benefits__item1 item-benefits1">
+                        <div class="item-benefits__icon">
+                            <img src="./img/benefits/benicon.svg" alt="">
+                        </div>
+                        <div class="item-benefits__title">Готовая команда</div>
+                        <p class="item-benefits__text">
+                            Работая со мной, вы также получаете готовую команду профессионалов в виде: дизайнеров, копирайтеров, программистов. Все компетенции в одном месте по разумной цене.
+                        </p>
+                    </div>
+                </div>
+                <div class="benefits__secondcol">
+                    <div class="benefits__item2 item-benefits2">
+                        <div class="item-benefits__icon">
+                            <img src="./img/benefits/benicon.svg" alt="">
+                        </div>
+                        <div class="item-benefits__title">Профессионализм</div>
+                        <p class="item-benefits__text">
+                            Привлекаю для своих клиентов более 400К конверсий за год через разные источники. Средний CPL базируется в районе 400 руб. Даже в сложных нишах стоимость лида удается привлекать на 30% ниже, чем у моих коллег.
+                        </p>
+                    </div>
+                    <div class="benefits__item2 item-benefits2">
+                        <div class="item-benefits__icon">
+                            <img src="./img/benefits/benicon.svg" alt="">
+                        </div>
+                        <div class="item-benefits__title">Гарантии</div>
+                        <p class="item-benefits__text">
+                            Работая со мной, у вас есть четкая уверенность в том, что вы доверили свой проект профессионалу своего дела и получите результат в короткие сроки.
+                        </p>
+                    </div>
+                </div>
+                <div class="benbuttons">
+                    <button class="benefits__btn">Подробнее обо мне</button>
+                    <button class="benefits__btn2">Связь со мной</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="page__reviews reviews">
+        <div class="reviews__container _container">
+            <div class="reviews__header">
+                <p class="reviews__header_text">                    Что говорят обо мне мои клиенты
+                </p>
+            </div>
+            <div id="slider" class="reviews__body">
+                <div class="reviews__row">
+
+                    <div class="reviews__column">
+                        <div class="reviews__item item-reviews">
+                            <div class="item-reviews__quotes">
+                                <img src="./img/reviews/quotes.svg" alt="">
+                            </div>
+                            <p class="reviews__desc">
+                                Я познакомился с Ярославом в Яндекс Метрике, сначала заочно. Увидел, что тот, кто занимается трафиком из Инстаграма, очень хорошо знает своё дело: число заявок в несколько раз превышало число заявок из стабильного и надёжного, как ран
+                            </p>
+                            <div class="reviews__content content-reviews">
+                                <img  class="content-reviews__icon" src="./img/reviews/client_icon.svg" alt="">
+                                <div class="content-reviews__info user-info">
+                                    <div class="user-info__name">Валентин</div>
+                                    <div class="user-info__occupation">Стоматология “Новый век”</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__column">
+                        <div class="reviews__item item-reviews">
+                            <div class="item-reviews__quotes">
+                                <img src="./img/reviews/quotes.svg" alt="">
+                            </div>
+                            <p class="reviews__desc">
+                                Я познакомился с Ярославом в Яндекс Метрике, сначала заочно. Увидел, что тот, кто занимается трафиком из Инстаграма, очень хорошо знает своё дело: число заявок в несколько раз превышало число заявок из стабильного и надёжного, как ран
+                            </p>
+                            <div class="reviews__content content-reviews">
+                                <img  class="content-reviews__icon" src="./img/reviews/client_icon.svg" alt="">
+                                <div class="content-reviews__info user-info">
+                                    <div class="user-info__name">Валентин</div>
+                                    <div class="user-info__occupation">Стоматология “Новый век”</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__column">
+                        <div class="reviews__item item-reviews">
+                            <div class="item-reviews__quotes">
+                                <img src="./img/reviews/quotes.svg" alt="">
+                            </div>
+                            <p class="reviews__desc">
+                                Я познакомился с Ярославом в Яндекс Метрике, сначала заочно. Увидел, что тот, кто занимается трафиком из Инстаграма, очень хорошо знает своё дело: число заявок в несколько раз превышало число заявок из стабильного и надёжного, как ран
+                            </p>
+                            <div class="reviews__content content-reviews">
+                                <img  class="content-reviews__icon" src="./img/reviews/client_icon.svg" alt="">
+                                <div class="content-reviews__info user-info">
+                                    <div class="user-info__name">Валентин</div>
+                                    <div class="user-info__occupation">Стоматология “Новый век”</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__column">
+                        <div class="reviews__item item-reviews">
+                            <div class="item-reviews__quotes">
+                                <img src="./img/reviews/quotes.svg" alt="">
+                            </div>
+                            <p class="reviews__desc">
+                                Я познакомился с Ярославом в Яндекс Метрике, сначала заочно. Увидел, что тот, кто занимается трафиком из Инстаграма, очень хорошо знает своё дело: число заявок в несколько раз превышало число заявок из стабильного и надёжного, как ран
+                            </p>
+                            <div class="reviews__content content-reviews">
+                                <img  class="content-reviews__icon" src="./img/reviews/client_icon.svg" alt="">
+                                <div class="content-reviews__info user-info">
+                                    <div class="user-info__name">Валентин</div>
+                                    <div class="user-info__occupation">Стоматология “Новый век”</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__column">
+                        <div class="reviews__item item-reviews">
+                            <div class="item-reviews__quotes">
+                                <img src="./img/reviews/quotes.svg" alt="">
+                            </div>
+                            <p class="reviews__desc">
+                                Я познакомился с Ярославом в Яндекс Метрике, сначала заочно. Увидел, что тот, кто занимается трафиком из Инстаграма, очень хорошо знает своё дело: число заявок в несколько раз превышало число заявок из стабильного и надёжного, как ран
+                            </p>
+                            <div class="reviews__content content-reviews">
+                                <img  class="content-reviews__icon" src="./img/reviews/client_icon.svg" alt="">
+                                <div class="content-reviews__info user-info">
+                                    <div class="user-info__name">Валентин</div>
+                                    <div class="user-info__occupation">Стоматология “Новый век”</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__column">
+                        <div class="reviews__item item-reviews">
+                            <div class="item-reviews__quotes">
+                                <img src="./img/reviews/quotes.svg" alt="">
+                            </div>
+                            <p class="reviews__desc">
+                                Я познакомился с Ярославом в Яндекс Метрике, сначала заочно. Увидел, что тот, кто занимается трафиком из Инстаграма, очень хорошо знает своё дело: число заявок в несколько раз превышало число заявок из стабильного и надёжного, как ран
+                            </p>
+                            <div class="reviews__content content-reviews">
+                                <img  class="content-reviews__icon" src="./img/reviews/client_icon.svg" alt="">
+                                <div class="content-reviews__info user-info">
+                                    <div class="user-info__name">Валентин</div>
+                                    <div class="user-info__occupation">Стоматология “Новый век”</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__slide">
+                <div class="reviews_firstl"></div>
+                <div class="reviews_secondl" id="nextButton"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__company">
+        <div class="company">
+            <img class="company__line first" src="assets/company/Vector 20.svg" alt="">
+            <div class="company__title">
+                <img src="assets/company/star1.svg" alt="">
+                <!-- <div class="company__title-h1"> -->
+                    <h1 class="title__company">Компании, которые доверили мне свои проекты</h1>
+                <!-- </div> -->
+                <img src="assets/company/star2.svg" alt="">
+            </div>
+            <div class="company__all">
+                <div class="company__img company__img-1">
+                    <img src="assets/company/yeralash.svg" alt="">
+                </div>
+                <div class="company__img company__img-2">
+                    <img  src="assets/company/kawicat.svg" alt="">
+                </div>
+                <div class="company__img company__img-3">
+                    <img  src="assets/company/bys.svg" alt="">
+                </div>
+                <div class="company__img company__img-4">
+                    <img  src="assets/company/icon-lev.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="penultimate__content">
+        <div class="penultimate__content__img">
+            <img src="assets/Content/Vector.png" alt="">
+        </div>
+        <div class="penultimate__content__container _container">
+            <div class="penultimate__content__section">
+                <h2 class="penultimate__content__title">Мои кейсы</h2>
+                <div class="penultimate__card__container">
+                    <div class="penultimate__content__card card">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+                    <div class="penultimate__content__card card">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+                    <div class="penultimate__content__card card">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+                    <div class="penultimate__content__card card">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+
+
+                    <div class="penultimate__content__card card penultimate__disabled">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+                    <div class="penultimate__content__card card penultimate__disabled">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+                    <div class="penultimate__content__card card penultimate__disabled">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+                    <div class="penultimate__content__card card penultimate__disabled">
+                        <div class="penultimate__card__content">
+                            <div class="penultimate__card__text">Seo</div>
+                            <div class="penultimate__card__line">
+                                <div class="penultimate__card__line__block__1">
+                                    <div class="penultimate__card__line__number">100</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 10</p>
+                                </div>
+                                <div class="penultimate__card__line__block__2">
+                                    <div class="penultimate__card__line__number">50</div>
+                                    <p class="penultimate__card__line__paragraph">ключей в ТОП 3</p>
+                                </div>
+                                <div class="penultimate__card__line__block__3">
+                                    <img src="assets/icons/Content/link_arrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penultimate__content__text">Lorem ipsum</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="penultimate__content__button">
+            <button type="button">Смотреть все</button>
+        </div>
+
+        <div class="penultimate__content__img">
+            <img src="assets/Content/Vector.png" alt="">
+        </div>
+    </section>
+
+    <section class="last__section">
+        <div class="last__records _container">
+            <div class="last__records__info">
+                <div class="last__records__title">Интересные публикации из блога</div>
+                <div class="last__records__subtitle">Последние Записи</div>
+            </div>
+
+            <div class="last__record-cards">
+                <div class="last__card">
+                    <div class="last__card__image">
+                        <img src="assets/car-image.png" alt="record1">
+                        <div class="last__date">19.04.2023</div>
+                    </div>
+                    <div class="last__card__info">
+                        <div class="last__card__title">Как привлечь клиентов в автосервис</div>
+                        <div class="last__card__text">
+                            Как привлечь клиентов в автосервис За все годы SEO продвижения…
+                        </div>
+                        <div class="last__records__button-link">
+                            <a class="last__records-link" href="#">Узнать больше</a>
+                            <img src="assets/icons/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="last__card">
+                    <div class="last__card__image">
+                        <img src="assets/records/image-card.png">
+                        <div class="last__date">19.04.2023</div>
+                    </div>
+                    <div class="last__card__info">
+                        <div class="last__card__title">Продвижение по LSI: обычные ключи больше не нужны?</div>
+                        <div class="last__card__text">
+                            В прошлом перед специалистами по копирайтингу нередко ставилась непростая задача-использовать…
+                        </div>
+                        <div class="last__records__button-link">
+                            <a class="last__records-link" href="#">Узнать больше</a>
+                            <img src="assets/icons/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="last__card">
+                    <div class="last__card__image">
+                        <img src="assets/records/google.png" alt="record1">
+                        <div class="last__date last__number">19.04.2023</div>
+                    </div>
+                    <div class="last__card__info">
+                        <div class="last__card__title">Факторы ранжирования Google 2019: что влияет на трафик и позиции сайта</div>
+                        <div class="last__card__text">
+                            Зарубежный специалист по раскрутке и продвижению Мэттью Вудвард составил перечень…
+                        </div>
+                        <div class="last__records__button-link">
+                            <a class="last__records-link" href="#">Узнать больше</a>
+                            <img src="assets/icons/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last__records__button">
+                <a class="last__records-btn" href="#">Смотреть все</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="last__footer">
+        <div class="last__footer__container _container ">
+            <div class="last__footer__image">
+                <img src="assets/icons/footer-icon.svg" alt="">
+                <p class="last__footer__text">Качественные услуги по продвижению сайтов в СПб, а также настройка контекстной и таргетированной рекламы.</p>
+            </div>
+
+            <div class="last__links">
+                <div class="last__link__item">
+                    <h2 class="last__link__title">Я в соц сетях</h2>
+                    <div class="last__links__items">
+                        <a href="#!">
+                            <img class="last__link__item-icon" src="assets/icons/vk.svg" alt="">
+                        </a>
+                        <a href="#!">
+                            <img class="last__link__item-icon"  src="assets/icons/facebook.svg" alt="">
+                        </a>
+                        <a href="#!">
+                            <img  class="last__link__item-icon"  src="assets/icons/instagram.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="last__link__item">
+                    <h2 class="last__link__title">Телефон </h2>
+                    <div class="last__links__item">980-801-63-63</div>
+                </div>
+
+                <div class="last__link__item">
+                    <h2 class="last__link__title">Местоположение</h2>
+                    <div class="last__links__item">Россия, Санкт-Петербург</div>
+
+                </div>
+
+                <div class="last__link__item">
+                    <h2>Полезные ссылки</h2>
+                    <div class="last__links__item">
+                        <ul class="last__links__useful">
+                            <li class="last__link__useful">
+                                <a href="#!">Обо мне</a>
+                            </li>
+                            <li class="last__link__useful">
+                                <a href="#!">Блог</a>
+                            </li>
+                            <li class="last__link__useful">
+                                <a href="#!">Проекты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var links = document.querySelectorAll('.navbar_item_link');
+        links.forEach(function(link) {
+            link.addEventListener('click', function() {
+                var target = this.getAttribute('data-target');
+                var menuContent = document.querySelector('.' + target);
+                menuContent.classList.toggle('active');
+            });
+        });
+    });
+</script>
+<script src="js/main.js"></script>
+<script src="js/slide2.js"></script>
+<script src="js/slide.js"></script>
+
+</body>
+</html>
